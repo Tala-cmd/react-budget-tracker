@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from 'uuid';
 function AddExpenseForm() {
     const { dispatch } = useContext(AppContext)
 
-
     const [name, setName] = useState('')
     const [cost, setCost] = useState('')
 
@@ -22,8 +21,6 @@ function AddExpenseForm() {
         type: 'ADD_EXPENSE',
         payload: expense
     })
-    
-    
     } 
 
     return (
