@@ -5,6 +5,7 @@ import Remaining from './components/Remaining'
 import ExpenseTotal from './components/ExpenseTotal';
 import ExpenseList from './components/ExpenseList';
 import AddExpenseForm from './components/AddExpenseForm';
+import EditExpense from './components/EditBudget';
 import { AppProvider } from './context/AppContext';
 
 const App = () => {
@@ -14,7 +15,9 @@ const App = () => {
       <h1 className='mt-3'>My Budget Planner</h1>
       <div className='row mt-3'>
         <div className='col-sm'>
-          <Budget />
+          <Budget>
+            
+          </Budget>
         </div>
 
         <div className='col-sm'>
